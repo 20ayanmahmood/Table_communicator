@@ -7,11 +7,11 @@ import google.generativeai as genai
 import os
 import matplotlib.pyplot as plt
 import json
-os.environ['API_KEY']="AIzaSyAOePw83p7J_T3nTZSLEoubTT5C3mq_2PE"
+os.environ['API_KEY']=""
 genai.configure(api_key=os.environ["API_KEY"])
 
 
-llm = Cohere(cohere_api_key='nSgp6NyaXBKFhIPH0wYqmibVmuM1l4NuM7YsG7mh',temperature=0.7)
+llm = Cohere(cohere_api_key='',temperature=0.7)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 
